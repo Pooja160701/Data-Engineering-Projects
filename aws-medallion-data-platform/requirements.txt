@@ -1,0 +1,9 @@
+apache-airflow==3.0.2
+apache-airflow-providers-amazon
+boto3
+pandas
+requests
+python-dotenv
+databricks-sdk
+pyarrow
+s3fs
