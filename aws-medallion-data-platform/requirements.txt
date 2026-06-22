@@ -7,3 +7,4 @@ python-dotenv
 databricks-sdk
 pyarrow
 s3fs
+apache-airflow-providers-databricks

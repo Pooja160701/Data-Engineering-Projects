@@ -97,3 +97,18 @@ class BronzeLayer:
 
             logging.error(f"Validation failed: {e}")
             return False
+
+    def upload_github_file(
+        self,
+        github_raw_url: str,
+        object_key: str
+    ):
+
+        data = self.ingest_data_api(github_raw_url)
+
+        self.upload_to_s3(
+            data=data,
+            object_key=object_key
+        )
+
+        self.validate_upload(object_key)

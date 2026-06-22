@@ -1,0 +1,8 @@
+{
+    "aws_region": "ap-south-1",
+    "s3_bucket": "your-bucket-name",
+    "glue_job_name": "silver_layer",
+    "crawler_name": "crawler_silver",
+    "athena_database": "airline_db",
+    "athena_table": "obt"
+}
